@@ -1,0 +1,3 @@
+# Doughnut chart
+
+Un gráfico de dona (también conocido como gráfico de rosquilla o gráfico de doughnut) es una variante del gráfico de pastel que presenta un agujero en el centro, creando una forma similar a una rosquilla. Al igual que en un gráfico de pastel, los gráficos de dona se utilizan para representar proporciones relativas de un todo, pero la diferencia principal radica en la presencia del agujero en el centro.
