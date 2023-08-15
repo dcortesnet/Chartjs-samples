@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <canvas id="line-chart"></canvas>
+    <script>
+      const ctx = document.getElementById("line-chart").getContext("2d");
+      const data = {
+        labels: ["January", "February", "March", "April", "May"],
+        datasets: [
+          {
+            label: "Example data",
+            data: [10, 20, 15, 25, 18], // Values
+            borderColor: "rgba(75, 192, 192, 1)", // Color lines
+            fill: false,
+          },
+        ],
+      };
+      const options = {
+        scales: {
+          y: {
+            beginAtZero: true,
+          },
+        },
+      };
+      const myLineChart = new Chart(ctx, {
+        type: "line",
+        data: data,
+        options: options,
+      });
+    </script>
+  </body>
+</html>
